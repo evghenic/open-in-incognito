@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "web-ext-openincognito",
+  "version": "1.0.0",
+  "description": "",
+  "author": "evghenic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evghenic/open-in-incognito"
+  },
+  "license": "MIT",
+  "scripts": {
+    "web-ext:firefox": "web-ext run --source-dir ./src",
+    "web-ext:compile-and-start-ff": "npm run copy-assets && npm run compile && npm run web-ext:firefox",
+    "web-ext:build-zip": "web-ext build --source-dir ./src --overwrite-dest --artifacts-dir ./dist-ext"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^82.0.0",
+    "web-ext": "^5.4.0"
+  }
+}
