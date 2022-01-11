@@ -4,5 +4,5 @@ Just right click on any link, or tab, or anywhere on page and select "Open in in
 
 ## Incognito mode
 You should *Allow this extension to run in Private Windows* to open an incognito window or tab
- https://support.mozilla.org/en-US/kb/extensions-private-browsing#w_granting-permission-on-installation
+ https://support.mozilla.org/kb/extensions-private-browsing#w_granting-permission-on-installation
 
